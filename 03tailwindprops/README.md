@@ -1,8 +1,9 @@
-# React + Vite
+# Learning Summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tailwind CSS
+In the project, I leveraged the power of Tailwind CSS to enhance the responsive design. Tailwind CSS provided a utility-first approach, streamlining the styling process and ensuring a visually appealing and adaptable user interface.
 
-Currently, two official plugins are available:
+# Props in React
+My exploration extended to understanding and effectively using React props. Props, short for properties, allowed me to pass data from one React component to another, facilitating a seamless flow of information and enhancing the modularity of the application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+These learning experiences have enriched my skills in building more responsive and dynamic user interfaces while promoting a modular and maintainable code structure in React applications.
