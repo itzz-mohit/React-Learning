@@ -94,7 +94,7 @@ button {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  background-color: lightgreen;
+  background-color: rgb(17, 102, 17);
   cursor: pointer;
 }
 
@@ -105,4 +105,8 @@ button:hover {
 #form-div {
   margin-left: 60px;
   margin-right: 60px;
+}
+
+.error {
+  color: red;
 }
