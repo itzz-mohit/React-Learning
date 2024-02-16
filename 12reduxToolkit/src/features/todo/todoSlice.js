@@ -15,6 +15,7 @@ export const todoSlice = createSlice({
       };
 
       state.todos.push(todo);
+      // in context api we have to spread but here not, state will do the work for you
     },
     removeTodo: (state, action) => {
       state.todos = state.todos.filter((todo) => todo.id !== action.payload);
@@ -25,3 +26,4 @@ export const todoSlice = createSlice({
 
 export const {addTodo,removeTodo} = todoSlice.actions
 export default todoSlice.reducer
+
