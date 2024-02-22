@@ -1,0 +1,11 @@
+/* Example.css */
+
+.custom-card {
+    width: 900px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Optional: Hide any overflow */
+    /* Add any other styling properties you desire */
+  }
+
+  
