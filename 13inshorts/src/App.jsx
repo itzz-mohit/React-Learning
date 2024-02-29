@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import {Header,Footer,Banner,NewsCards } from "./components";
-
+import { Header, Footer, Banner, NewsCards } from "./components";
 
 function App() {
   const [newsItems, setNews] = useState([]);
@@ -25,7 +24,7 @@ function App() {
   return (
     <div className="mt-24">
       <Header />
-      <Banner/>
+      <Banner />
       <div>
         {newsItems.slice(0, visibleCards).map((news, index) => (
           <NewsCards key={index} newsData={news.news_obj} />
@@ -42,6 +41,7 @@ function App() {
         </div>
       )}
       <Footer />
+      
     </div>
   );
 }
