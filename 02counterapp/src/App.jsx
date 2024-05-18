@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
+import MyChatBot from "./MyChatBot";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +29,7 @@ function App() {
       <button onClick={addValue}>Add</button>
       <br></br>
       <button onClick={removeValue}>Remove</button>
+      <MyChatBot/>
     </>
   );
 }
